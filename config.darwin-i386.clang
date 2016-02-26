@@ -1,0 +1,12 @@
+CC			= clang
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= clang
+AR			= ar
+BISON			= bison
+FLEXFLAGS		= -DFLEX32
+PLATFORM_CFLAGS 	= -emit-llvm -Wno-gnu-designator
+PLATFORM_LFLAGS 	=
+PLATFORM_OPTFLAGS	= -O0
+PLATFORM_DBGFLAGS	= -g

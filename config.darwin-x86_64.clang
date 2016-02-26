@@ -1,0 +1,14 @@
+CC			= clang
+OBJECTEXTENSION		= bc
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= clang
+AR			= /usr/bin/ar
+RANLIB			= /usr/bin/ranlib
+BISON			= bison
+FLEXFLAGS		= -DFLEX64
+PLATFORM_CFLAGS 	= -emit-llvm -Wno-gnu-designator
+PLATFORM_LFLAGS 	= -framework OpenCL
+PLATFORM_OPTFLAGS	= -O3
+PLATFORM_DBGFLAGS	= #-g

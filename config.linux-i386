@@ -1,0 +1,11 @@
+CC			= gcc
+GAWK			= gawk
+LINT			= echo 
+LD			= gcc
+AR			= ar
+BISON			= bison
+FLEXFLAGS		= -DFLEX32
+PLATFORM_CFLAGS 	=
+PLATFORM_LFLAGS 	= #-lpthread 
+PLATFORM_OPTFLAGS	= -O0 #-O4 -funroll-loops -finline-functions
+PLATFORM_DBGFLAGS	= -pg

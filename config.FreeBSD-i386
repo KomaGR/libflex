@@ -1,0 +1,12 @@
+CC			= gcc
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= gcc
+AR			= ar
+BISON			= bison
+FLEXFLAGS		= -DFLEX32
+PLATFORM_CFLAGS 	=
+PLATFORM_LFLAGS 	=
+PLATFORM_OPTFLAGS	= -O0 #-O4 -Wuninitialized -funroll-loops -finline-functions
+PLATFORM_DBGFLAGS	= -pg

@@ -1,0 +1,12 @@
+CC			= llvm-gcc
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= llvm-gcc
+AR			= ar
+BISON			= bison
+FLEXFLAGS		= -DFLEX32
+PLATFORM_CFLAGS 	= -arch i386 -mmacosx-version-min=10.5 -no-cpp-precomp -mno-fused-madd -pipe -multiply_defined suppress -malign-natural -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -Wno-deprecated-declarations -Wunused -Wreturn-type -Wimplicit
+PLATFORM_LFLAGS 	= -mmacosx-version-min=10.5 -multiply_defined suppress #-lpthread
+PLATFORM_OPTFLAGS	= -O0 #-O4 -Wuninitialized -funroll-loops -finline-functions
+PLATFORM_DBGFLAGS	= -pg

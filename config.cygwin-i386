@@ -1,0 +1,12 @@
+CC			= gcc
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= gcc 
+AR			= ar
+BISON			= bison
+FLEXFLAGS		= -DFLEX32
+PLATFORM_CFLAGS 	= #-arch x86_64
+PLATFORM_LFLAGS 	= -lgomp
+PLATFORM_OPTFLAGS	= -O0 #-O4 -Wuninitialized -funroll-loops -finline-functions #-fopenmp
+PLATFORM_DBGFLAGS	= -g	# -pg breaks on Cygwin

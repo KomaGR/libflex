@@ -1,0 +1,13 @@
+CC			= sh-coff-gcc 
+OBJECTEXTENSION		= bc
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= clang
+AR			= ar
+BISON			= bison
+FLEXFLAGS		= -DFLEX32
+PLATFORM_CFLAGS 	= -DFLEX_EMBEDDED
+PLATFORM_LFLAGS 	=
+PLATFORM_OPTFLAGS	= -O2
+PLATFORM_DBGFLAGS	= #-g

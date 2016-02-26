@@ -1,0 +1,13 @@
+CC			= /Volumes/doos/android-ndk-r10e/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc
+OBJECTEXTENSION		= o
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= /Volumes/doos/android-ndk-r10e/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc
+AR			= /Volumes/doos/android-ndk-r10e/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-ar
+BISON			= bison
+FLEXFLAGS		= -DFLEX64
+PLATFORM_CFLAGS 	= -mandroid -I/Volumes/doos/android-ndk-r10e/platforms/android-9/arch-x86/usr/include
+PLATFORM_LFLAGS 	= -L/Volumes/doos/android-ndk-r10e/platforms/android-9/arch-x86/usr/lib
+PLATFORM_OPTFLAGS	= -O3
+PLATFORM_DBGFLAGS	= #-g
