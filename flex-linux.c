@@ -84,7 +84,7 @@ checkh2o(int maxbufsz, FlexPrintBuf *P, char *buf)
 	return;
 }
 
-int
+uvlong
 flexfsize(FlexErrState *E, FlexMstate *M, FlexPrintBuf *P, int fd)
 {
 	struct stat	sb;
@@ -224,7 +224,7 @@ flexgetpwd(FlexErrState *E, FlexMstate *M, FlexPrintBuf *P)
 }
 
 int
-flexsnprint(char *dst, int size, char *fmt, ...)
+flexsnprint(char *dst, int size, const char *fmt, ...)
 {
 	va_list		arg;
 	int		n;
@@ -323,7 +323,23 @@ flexbufdealloc(FlexErrState *E, FlexMstate *M, FlexPrintBuf *P, FlexPrintBuf *mo
 }
 
 void
-flexprint(FlexErrState *E, FlexMstate *M, FlexPrintBuf *P, char *fmt, ...)
+flexbufreset(FlexErrState *E, FlexMstate *M, FlexPrintBuf *P)
+{
+	if (P->circbuf == NULL)
+	{
+		fprintf(stderr, "Attempt to reset unallocated circular buffer in flex-darwin.c/flexbufreset.\n");
+		
+		return;
+	}
+	
+	P->h2o = 0;
+	P->circbuf[0] = '\0';
+	
+	return;
+}
+
+void
+flexprint(FlexErrState *E, FlexMstate *M, FlexPrintBuf *P, const char *fmt, ...)
 {
 	int	fmtlen;
 	char	*buf;
