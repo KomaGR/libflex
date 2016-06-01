@@ -1,4 +1,5 @@
 CC			= gcc
+OBJECTEXTENSION		= o
 GAWK			= gawk
 LINT			= echo 
 LD			= gcc
