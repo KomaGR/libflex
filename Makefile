@@ -3,7 +3,7 @@
 #
 #                make OSTYPE=android MACHTYPE=x86_64 COMPILERVARIANT= WFLAGS=
 #
-CONFIGPATH      = /Volumes/doos/libflex-hg-clone
+CONFIGPATH      = /Users/Hippo/compiler/libflex
 COMPILERVARIANT = .clang
 include		$(CONFIGPATH)/config.$(OSTYPE)-$(MACHTYPE)$(COMPILERVARIANT)
 
