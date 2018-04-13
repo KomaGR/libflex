@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323ED48F1397C778007DA43C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323ED48E1397C778007DA43C /* Foundation.framework */; };
+		323ED49A1397C778007DA43C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323ED4991397C778007DA43C /* UIKit.framework */; };
+		323ED49B1397C778007DA43C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323ED48E1397C778007DA43C /* Foundation.framework */; };
+		323ED49D1397C778007DA43C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323ED49C1397C778007DA43C /* CoreGraphics.framework */; };
+		323ED4A01397C778007DA43C /* liblibflex-cocoatouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 323ED48B1397C778007DA43C /* liblibflex-cocoatouch.a */; };
+		323ED4A61397C778007DA43C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 323ED4A41397C778007DA43C /* InfoPlist.strings */; };
+		323ED4A91397C778007DA43C /* libflex_cocoatouchTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 323ED4A81397C778007DA43C /* libflex_cocoatouchTests.h */; };
+		323ED4AB1397C778007DA43C /* libflex_cocoatouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323ED4AA1397C778007DA43C /* libflex_cocoatouchTests.m */; };
+		323ED4BE1397C7AB007DA43C /* flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 323ED4B71397C7AB007DA43C /* flex.h */; };
+		323ED4BF1397C7AB007DA43C /* flexmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 323ED4B81397C7AB007DA43C /* flexmalloc.c */; };
+		323ED4C01397C7AB007DA43C /* flextoken.c in Sources */ = {isa = PBXBuildFile; fileRef = 323ED4B91397C7AB007DA43C /* flextoken.c */; };
+		323ED4C11397C7AB007DA43C /* flex-darwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 323ED4BA1397C7AB007DA43C /* flex-darwin.c */; };
+		323ED4C21397C7AB007DA43C /* flexerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 323ED4BB1397C7AB007DA43C /* flexerror.h */; };
+		323ED4C31397C7AB007DA43C /* flextypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 323ED4BC1397C7AB007DA43C /* flextypes.h */; };
+		323ED4C41397C7AB007DA43C /* flexlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 323ED4BD1397C7AB007DA43C /* flexlist.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323ED49E1397C778007DA43C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323ED4821397C778007DA43C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323ED48A1397C778007DA43C;
+			remoteInfo = "libflex-cocoatouch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		323ED48B1397C778007DA43C /* liblibflex-cocoatouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibflex-cocoatouch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323ED48E1397C778007DA43C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		323ED4921397C778007DA43C /* libflex-cocoatouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libflex-cocoatouch-Prefix.pch"; sourceTree = "<group>"; };
+		323ED4981397C778007DA43C /* libflex-cocoatouchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libflex-cocoatouchTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323ED4991397C778007DA43C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		323ED49C1397C778007DA43C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		323ED4A31397C778007DA43C /* libflex-cocoatouchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libflex-cocoatouchTests-Info.plist"; sourceTree = "<group>"; };
+		323ED4A51397C778007DA43C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		323ED4A71397C778007DA43C /* libflex-cocoatouchTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libflex-cocoatouchTests-Prefix.pch"; sourceTree = "<group>"; };
+		323ED4A81397C778007DA43C /* libflex_cocoatouchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libflex_cocoatouchTests.h; sourceTree = "<group>"; };
+		323ED4AA1397C778007DA43C /* libflex_cocoatouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libflex_cocoatouchTests.m; sourceTree = "<group>"; };
+		323ED4B71397C7AB007DA43C /* flex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flex.h; path = ../../flex.h; sourceTree = "<group>"; };
+		323ED4B81397C7AB007DA43C /* flexmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = flexmalloc.c; path = ../../flexmalloc.c; sourceTree = "<group>"; };
+		323ED4B91397C7AB007DA43C /* flextoken.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = flextoken.c; path = ../../flextoken.c; sourceTree = "<group>"; };
+		323ED4BA1397C7AB007DA43C /* flex-darwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "flex-darwin.c"; path = "../../flex-darwin.c"; sourceTree = "<group>"; };
+		323ED4BB1397C7AB007DA43C /* flexerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flexerror.h; path = ../../flexerror.h; sourceTree = "<group>"; };
+		323ED4BC1397C7AB007DA43C /* flextypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flextypes.h; path = ../../flextypes.h; sourceTree = "<group>"; };
+		323ED4BD1397C7AB007DA43C /* flexlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = flexlist.c; path = ../../flexlist.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323ED4881397C778007DA43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323ED48F1397C778007DA43C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323ED4941397C778007DA43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323ED49A1397C778007DA43C /* UIKit.framework in Frameworks */,
+				323ED49B1397C778007DA43C /* Foundation.framework in Frameworks */,
+				323ED49D1397C778007DA43C /* CoreGraphics.framework in Frameworks */,
+				323ED4A01397C778007DA43C /* liblibflex-cocoatouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323ED4801397C778007DA43C = {
+			isa = PBXGroup;
+			children = (
+				323ED4B71397C7AB007DA43C /* flex.h */,
+				323ED4B81397C7AB007DA43C /* flexmalloc.c */,
+				323ED4B91397C7AB007DA43C /* flextoken.c */,
+				323ED4BA1397C7AB007DA43C /* flex-darwin.c */,
+				323ED4BB1397C7AB007DA43C /* flexerror.h */,
+				323ED4BC1397C7AB007DA43C /* flextypes.h */,
+				323ED4BD1397C7AB007DA43C /* flexlist.c */,
+				323ED4901397C778007DA43C /* libflex-cocoatouch */,
+				323ED4A11397C778007DA43C /* libflex-cocoatouchTests */,
+				323ED48D1397C778007DA43C /* Frameworks */,
+				323ED48C1397C778007DA43C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323ED48C1397C778007DA43C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323ED48B1397C778007DA43C /* liblibflex-cocoatouch.a */,
+				323ED4981397C778007DA43C /* libflex-cocoatouchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323ED48D1397C778007DA43C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323ED48E1397C778007DA43C /* Foundation.framework */,
+				323ED4991397C778007DA43C /* UIKit.framework */,
+				323ED49C1397C778007DA43C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		323ED4901397C778007DA43C /* libflex-cocoatouch */ = {
+			isa = PBXGroup;
+			children = (
+				323ED4911397C778007DA43C /* Supporting Files */,
+			);
+			path = "libflex-cocoatouch";
+			sourceTree = "<group>";
+		};
+		323ED4911397C778007DA43C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				323ED4921397C778007DA43C /* libflex-cocoatouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		323ED4A11397C778007DA43C /* libflex-cocoatouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				323ED4A81397C778007DA43C /* libflex_cocoatouchTests.h */,
+				323ED4AA1397C778007DA43C /* libflex_cocoatouchTests.m */,
+				323ED4A21397C778007DA43C /* Supporting Files */,
+			);
+			path = "libflex-cocoatouchTests";
+			sourceTree = "<group>";
+		};
+		323ED4A21397C778007DA43C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				323ED4A31397C778007DA43C /* libflex-cocoatouchTests-Info.plist */,
+				323ED4A41397C778007DA43C /* InfoPlist.strings */,
+				323ED4A71397C778007DA43C /* libflex-cocoatouchTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		323ED4891397C778007DA43C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323ED4BE1397C7AB007DA43C /* flex.h in Headers */,
+				323ED4C21397C7AB007DA43C /* flexerror.h in Headers */,
+				323ED4C31397C7AB007DA43C /* flextypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		323ED48A1397C778007DA43C /* libflex-cocoatouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323ED4AE1397C778007DA43C /* Build configuration list for PBXNativeTarget "libflex-cocoatouch" */;
+			buildPhases = (
+				323ED4871397C778007DA43C /* Sources */,
+				323ED4881397C778007DA43C /* Frameworks */,
+				323ED4891397C778007DA43C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libflex-cocoatouch";
+			productName = "libflex-cocoatouch";
+			productReference = 323ED48B1397C778007DA43C /* liblibflex-cocoatouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		323ED4971397C778007DA43C /* libflex-cocoatouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323ED4B11397C778007DA43C /* Build configuration list for PBXNativeTarget "libflex-cocoatouchTests" */;
+			buildPhases = (
+				323ED4931397C778007DA43C /* Sources */,
+				323ED4941397C778007DA43C /* Frameworks */,
+				323ED4951397C778007DA43C /* Resources */,
+				323ED4961397C778007DA43C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323ED49F1397C778007DA43C /* PBXTargetDependency */,
+			);
+			name = "libflex-cocoatouchTests";
+			productName = "libflex-cocoatouchTests";
+			productReference = 323ED4981397C778007DA43C /* libflex-cocoatouchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323ED4821397C778007DA43C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 323ED4851397C778007DA43C /* Build configuration list for PBXProject "libflex-cocoatouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 323ED4801397C778007DA43C;
+			productRefGroup = 323ED48C1397C778007DA43C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323ED48A1397C778007DA43C /* libflex-cocoatouch */,
+				323ED4971397C778007DA43C /* libflex-cocoatouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323ED4951397C778007DA43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323ED4A61397C778007DA43C /* InfoPlist.strings in Resources */,
+				323ED4A91397C778007DA43C /* libflex_cocoatouchTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		323ED4961397C778007DA43C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323ED4871397C778007DA43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323ED4BF1397C7AB007DA43C /* flexmalloc.c in Sources */,
+				323ED4C01397C7AB007DA43C /* flextoken.c in Sources */,
+				323ED4C11397C7AB007DA43C /* flex-darwin.c in Sources */,
+				323ED4C41397C7AB007DA43C /* flexlist.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323ED4931397C778007DA43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323ED4AB1397C778007DA43C /* libflex_cocoatouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323ED49F1397C778007DA43C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323ED48A1397C778007DA43C /* libflex-cocoatouch */;
+			targetProxy = 323ED49E1397C778007DA43C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		323ED4A41397C778007DA43C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323ED4A51397C778007DA43C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323ED4AC1397C778007DA43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		323ED4AD1397C778007DA43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		323ED4AF1397C778007DA43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/libflex_cocoatouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libflex-cocoatouch/libflex-cocoatouch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				"OTHER_CFLAGS[arch=*]" = "-DFLEX32";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		323ED4B01397C778007DA43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/libflex_cocoatouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libflex-cocoatouch/libflex-cocoatouch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				"OTHER_CFLAGS[arch=*]" = "-DFLEX32";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		323ED4B21397C778007DA43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libflex-cocoatouchTests/libflex-cocoatouchTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "libflex-cocoatouchTests/libflex-cocoatouchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		323ED4B31397C778007DA43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libflex-cocoatouchTests/libflex-cocoatouchTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "libflex-cocoatouchTests/libflex-cocoatouchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323ED4851397C778007DA43C /* Build configuration list for PBXProject "libflex-cocoatouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323ED4AC1397C778007DA43C /* Debug */,
+				323ED4AD1397C778007DA43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323ED4AE1397C778007DA43C /* Build configuration list for PBXNativeTarget "libflex-cocoatouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323ED4AF1397C778007DA43C /* Debug */,
+				323ED4B01397C778007DA43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323ED4B11397C778007DA43C /* Build configuration list for PBXNativeTarget "libflex-cocoatouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323ED4B21397C778007DA43C /* Debug */,
+				323ED4B31397C778007DA43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323ED4821397C778007DA43C /* Project object */;
+}
