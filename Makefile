@@ -29,10 +29,10 @@ HEADERS	=\
 	flexerror.h\
 	flex.h\
 
-all:	libsets-$(TARGET).a
+all:	libflex-$(TARGET).a
 
-libsets-$(TARGET).a: Makefile $(LIBOBJS)
-	$(AR) r $(TARGET) $(LIBOBJS)
+libflex-$(TARGET).a: Makefile $(LIBOBJS)
+	$(AR) rv $(TARGET) $(LIBOBJS)
 
 %.$(OBJECTEXTENSION): %.c $(HEADERS) Makefile
 #	$(LINT) $(INCDIRS) $<
