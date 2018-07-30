@@ -1,4 +1,5 @@
 CC			= sh-coff-gcc 
+CXX			= sh-coff-g++
 OBJECTEXTENSION		= bc
 GAWK			= gawk
 SPLINT			= splint

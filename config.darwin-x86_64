@@ -1,4 +1,5 @@
 CC			= llvm-gcc
+CXX			= llvm-g++
 OBJECTEXTENSION		= o
 GAWK			= gawk
 SPLINT			= splint

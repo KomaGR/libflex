@@ -1,4 +1,5 @@
 CC			= gcc
+CXX			= g++
 GAWK			= gawk
 SPLINT			= splint
 LCLINT			= lclint
