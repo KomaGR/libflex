@@ -4,8 +4,8 @@
 #                make OSTYPE=android MACHTYPE=x86_64 COMPILERVARIANT= WFLAGS=
 #
 include		config.local
-COMPILERVARIANT = .clang
-include		$(CONFIGPATH)/config.$(OSTYPE)-$(MACHTYPE)$(COMPILERVARIANT)
+COMPILERVARIANT = clang
+include		$(CONFIGPATH)/config.$(OSTYPE)-$(MACHTYPE).$(COMPILERVARIANT)
 
 TARGET		= libflex-$(OSTYPE).a
 

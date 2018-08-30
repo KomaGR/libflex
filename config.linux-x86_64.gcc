@@ -1,0 +1,14 @@
+CC			= gcc
+OBJECTEXTENSION		= o#bc
+GAWK			= gawk
+SPLINT			= splint
+LCLINT			= lclint
+LD			= ld
+AR			= ar
+RANLIB			= ranlib
+BISON			= bison
+FLEXFLAGS		= -DFLEX64
+PLATFORM_CFLAGS 	= #-emit-llvm -Wno-gnu-designator
+PLATFORM_LFLAGS 	=
+PLATFORM_OPTFLAGS	= -O3
+PLATFORM_DBGFLAGS	= #-g
