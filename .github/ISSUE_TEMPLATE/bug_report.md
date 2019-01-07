@@ -23,11 +23,12 @@ If applicable, add screenshots to help explain your problem.
 
 **Host OS (please complete the following information):**
  - OS: (e.g., macOS 10.9).
- - Browser (e.g., Chrome, Safari).
+ - Browser (e.g., Chrome or Safari).
  - Version (e.g., 22).
 
 **You local changes (please complete the following information):**
  - Output of `git diff`.
+- Output of `git remote -v`.
 
 **Additional context**
 Add any other context about the problem here.
