@@ -15,9 +15,9 @@ TARGET		= libflex-$(OSTYPE).a
 LINT		= /usr/local/bin/splint
 
 INCDIRS		= -I.
-OPTFLAGS	= -O3 #-emit-llvm
-DBGFLAGS	= #-g
-WFLAGS		= #-Wall -Werror
+OPTFLAGS	=
+DBGFLAGS	=
+WFLAGS		= -Wall -Werror
 CFLAGS		= $(PLATFORM_DBGFLAGS) $(PLATFORM_CFLAGS) $(PLATFORM_DFLAGS) $(PLATFORM_OPTFLAGS) -DFLEX64 $(INCDIRS)#-emit-llvm -DFLEX64 $(INCDIRS)	#-DFLEX64 $(INCDIRS)
 
 LIBOBJS	=\
