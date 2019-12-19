@@ -138,7 +138,7 @@ typedef struct
 /*									*/
 enum
 {
-	FLEX_CIRCBUFSZ	= 65536*16,
+	FLEX_CIRCBUFSZ	= 65536*1024,
 };
 
 //obsolete	typedef enum
